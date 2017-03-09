@@ -33,7 +33,7 @@
 	</div>
 	
 	<div class="right">
-	<form method="post" action="terms.html" name="english_registration_form" id="english_registration_form">
+	<form method="post" action="terms.html" name="registration_form" id="registration_form">
 	<input type="gtag" id="gtag" name="gamertag" required placeholder="Gamertag/PSN ID">
 		<span class="error"><p id="gamertag_error"></p></span>
 	<input type="text" id="name" name="name" aria-describedby="name-format" required placeholder="Name">
@@ -42,11 +42,11 @@
 		<span class="error"><p id="email_error"></p></span>
 	<input type="password" id="password" name="password" required placeholder="password">
 		<span class="error"><p id="password_error"></p></span>
-	<input type="re-enter-password" id="password" name="re-enter password" required placeholder="re-enter password">
-		<span class="error"><p id="re-enter-password_error"></p></span>
-		<input type="tel" id="telephone" name="telephone" required placeholder="Telephone">
-	<span class="error"><p id="telephone_error"></p></span>
-		<button class="register_button" type="submit" value="submit">Register Now</button>
+	<input type="conf_password" id="password" name="conf_password" required placeholder="confirm password">
+		<span class="error"><p id="conf_password_error"></p></span>
+	<input type="tel" id="telephone" name="telephone" required placeholder="Telephone">
+		<span class="error"><p id="telephone_error"></p></span>
+			<button class="register_button" type="submit" value="submit onclick="GetFormData()>">Register Now</button>
 		</form>
 	</div>
 	<hr>

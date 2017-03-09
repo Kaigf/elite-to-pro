@@ -1,0 +1,35 @@
+/* CSS */
+navbar {
+	 background-color:  #262626;
+	 height: 120px;
+	 font-size: 15px; 
+	 padding: 0px;
+	 margin: 0px;
+	 text-align:right;
+ }
+nav ul {
+	height: 100px;
+	overflow: hidden;
+}
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: right;
+
+}
+li a  {
+	text-decoration: none;
+	color: white;
+	line-height: 20px;
+	display: block; 
+	
+}
+li a:hover {
+	color: #0080ff;	
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 	
+}

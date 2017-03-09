@@ -10,7 +10,7 @@ if (typeof jQuery === 'undefined') {
 
 // var nameunction GetFormData() {
 	var name=document.getElementById('gtag').value;
-  var name=document.getElementById('username').value;
+        var name=document.getElementById('username').value;
 	var name=document.getElementById('email').value;
 	var name=document.getElementById('password').value;
 	var name=document.getElementById('conf_password').value;

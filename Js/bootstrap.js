@@ -8,6 +8,15 @@ if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
 
+// var nameunction GetFormData() {
+	var name=document.getElementById('gtag').value;
+  var name=document.getElementById('username').value;
+	var name=document.getElementById('email').value;
+	var name=document.getElementById('password').value;
+	var name=document.getElementById('conf_password').value;
+	CreateUserWithName(gamertag,email,password,conf-password);	
+}
+
 +function ($) {
   'use strict';
   var version = $.fn.jquery.split(' ')[0].split('.')

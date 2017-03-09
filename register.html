@@ -33,21 +33,27 @@
 	</div>
 	
 	<div class="right">
-	<form method="post" action="terms.html" name="registration_form" id="registration_form">
-	<input type="gtag" id="gtag" name="gamertag" required placeholder="Gamertag/PSN ID">
-		<span class="error"><p id="gamertag_error"></p></span>
-	<input type="text" id="username" name="username" aria-describedby="name-format" required placeholder="Name">
-		<span class="error"><p id="username_error"></p></span>
-	<input type="email" id="email" name="email" required placeholder="Email">
-		<span class="error"><p id="email_error"></p></span>
-	<input type="password" id="password" name="password" required placeholder="password">
-		<span class="error"><p id="password_error"></p></span>
-	<input type="conf_password" id="password" name="conf_password" required placeholder="confirm password">
-		<span class="error"><p id="conf_password_error"></p></span>
-	<input type="tel" id="telephone" name="telephone" required placeholder="Telephone">
-		<span class="error"><p id="telephone_error"></p></span>
-			<button class="register_button" type="submit" value="submit onclick="GetFormData()>">Register Now</button>
-		</form>
+	<form method="post" name="register_form" id="GetFormData">
+		<div class="gamertag">
+			<label for="name" class="required">Name:</label>
+			<input type="text" placeholder="Gamertag/Playstation ID" name="name" id="name"
+			required title="Please enter your Gamertag/Playstation ID">
+		</div>
+		<div class="email">
+			<label for="email" class="required">Email:</label>
+			<input type="text" placeholder="you@example.com" name="email" id="email"
+			required>
+		</div>
+		<div class="password">
+			<label for="password" class="required">Password:</label>
+			<input type="password" name="password" id="password" required>
+		</div>
+		<div class="password">
+			<label for="conf_password" class="required">Confirm Password:</label>
+			<input type="password" name="conf-password" id="conf_password" required>
+		</div>
+	<button class="button" name="submit" type="submit" value="submit" onclick="GetFormData()"/>Register</button>
+	</form>
 	</div>
 	<hr>
 	<div class="bottom">

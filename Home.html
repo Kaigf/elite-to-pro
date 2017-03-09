@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<title>ElitetoPro</title>
+<link href="stylesheet.etp.css" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+
+<nav id="header">
+<img src="Images/ETPLogo.png" alt="EliteToPro" style="width:90px; height:90px;" align="left">
+	<ul>
+		<li><a href="About.html" class="selected">About</a></li>
+		<li><a href="Home.html" class="selected">Home</a></li>
+		<li><a href="register.html" class="Selected">Register</a></li>
+		<li><a href="login.html" class="selected">Login</a></li>
+		<li><a href="#">Service</a></li>
+				<li><a href="Home.html" class="selected">Home</a></li>
+	</ul>
+</nav>
+<hr>
+</header>
+<br>
+<br>
+<body style="background-color:#4d4d4d; text-align:center">
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="Images/Seattle.png" style="width:100%"> 
+  </div>
+  <div class="mySlides fade">
+    <img src="Images/Seattle.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="Images/Seattle.png" style="width:100%">   
+  </div>
+</div>
+<br>
+<br>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 4 seconds
+}
+</script>
+</body>
+<hr>
+
+<div class="bottom">
+	
+	<font size="20" align="middle"><h2>Stay Connected:</h2></font><h1>We are here to help gamers connect and find their dream teams, 
+				compete, and continue to grow. Check out our twitch channel and Facebook page.</h1>
+		<a href="#" class="myButton">Facebook</a>
+		<a href="https://www.twitch.tv/etpcod" class="myButton">Twitch</a>
+	
+</div>
+<hr>
+<br>
+<br>
+
+<footer>
+<div>
+	<nav id="footer">
+		<ul>
+<li><div><a href="Home.html">Home</a>
+	<nav>
+    	<ul>
+        <li><a href="">Scrim</a></li>
+        <li><a href="">Scrim Rules</a></li>
+        </ul>
+    </nav>
+    </div></li>
+<li><div><a href="#">Community</a>
+	<nav>
+    	<ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Testimonials</a></li>
+        </ul>
+    </nav>
+</div></li>
+<li><div><a href="#">News</a>
+	<nav>
+    	<ul>
+        <li><a href="#">Tournament Time</a></li>
+        <li><a href="#">Tournament Live Feed</a></li>
+        </ul>
+    </nav>
+</div></li>
+<li><div><a href="Service.html">Service</a>
+	<nav>
+    	<ul>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Privacy</a></li>
+        </ul>
+    </nav>
+</div></li>
+<li><div><a href="">Contact Us</a>
+	<nav>
+    	<ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="">Feedback</a></li>
+        </ul>
+    </nav>
+</div></li>
+		</ul>
+	</nav>
+</div>
+</footer>
+
+</html>

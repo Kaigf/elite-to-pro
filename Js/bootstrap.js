@@ -3,6 +3,10 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
+$ git push heroku master
+Initializing repository, done.
+updating 'refs/heads/master'
+...
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')

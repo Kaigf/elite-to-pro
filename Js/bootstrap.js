@@ -16,6 +16,7 @@ if (typeof jQuery === 'undefined') {
 	var name=document.getElementById('conf_password').value;
 	CreateUserWithName(gamertag,email,password,conf-password);	
 }
+//script that needs to be inputed for register to work properly 
 
 +function ($) {
   'use strict';
@@ -2161,6 +2162,9 @@ if (typeof jQuery === 'undefined') {
         .one('bsTransitionEnd', next)
         .emulateTransitionEnd(Tab.TRANSITION_DURATION) :
       next()
+
+	  
+	  
 
     $active.removeClass('in')
   }
